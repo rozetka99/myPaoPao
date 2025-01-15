@@ -1,0 +1,108 @@
+
+.img1{
+    width: 100px;
+    position: absolute;
+    top: 160px;
+    left: 310px;
+}
+.img2{
+    width: 150px;
+    position: absolute;
+    top: -10px;
+    left: 120px;
+
+}
+
+.img3{
+    width: 100px;
+    position: absolute;
+    top: -10px;
+    left: 170px;
+ 
+}
+.img4{
+    width: 100px;
+    position: absolute;
+    top: 140px;
+    left: 120px;
+}
+
+#GameBoard{
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    gap: 10px;
+    background-color: rgb(197, 12, 12);
+    width: 200px;
+    height: 200px;
+  
+    padding: 10px;
+    transition: 500ms;
+
+    border-style: solid;
+    border-color: green;
+    border-width: 6px;
+
+    margin: 0 auto;
+ 
+}
+
+.cel{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-align: center;
+    align-content: center;
+    font-family:Trattatello, fantasy ;
+    color: red;
+    
+}
+.cel:hover{
+    background-color: rgb(255, 64, 64);
+    transition: 800ms;
+}
+
+.cel:active{
+    background-color: rgb(34, 138, 3);
+    transition: 800ms;
+}
+
+
+
+.cellhide{
+    color: transparent;
+    user-select: none;
+}
+
+
+.cellShow{
+    color: black;
+    user-select: auto;
+}
+
+.para{
+    font-family:Trattatello, fantasy ;
+    font-size: 20px;
+    color: rgb(145, 13, 13);
+    position: absolute;
+    left: 160px;
+    top: -15px;
+}
+
+
+
+img {
+    user-select: none;
+    pointer-events: none;
+}
+
+#Taimer{
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    font-size: 50px;
+}
+#Points{
+    position: absolute;
+    top: 70px;
+    left: 80px;
+    font-size: 50px;
+}
